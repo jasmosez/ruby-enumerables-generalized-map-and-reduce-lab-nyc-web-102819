@@ -15,5 +15,7 @@ def reduce(source_array, starting_point = 0)
     result = yield(source_array[i], result)
     i += 1
   end
+  
+  # this gets the 
   result ? result : FALSE
 end
