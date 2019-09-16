@@ -17,5 +17,5 @@ def reduce(source_array, starting_point = 0)
     puts "#{result} is result after update"
     i += 1
   end
-  return result
+  result
 end
